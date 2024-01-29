@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1: Getting Started with PHP - Trang</title>
-</head>
-<body>
+<?php  
+$title = 'Exercise 1: Getting Started with PHP - Trang';
 
+include "header.php"?>
+<div class="content-white">
     <?php 
         $my_name = "Trang"; 
         echo "<h3>Hello world! My name is \"$my_name\"<h3>"; 
@@ -24,5 +20,5 @@
         echo "<tr><th>3</th><th>Bob</th><th>".$g3."</th></tr></table>";
         ?>
         <img src="screenshot_docker_env.png">
-</body>
-</html>
+</div>
+<?php include "footer.php"?>
