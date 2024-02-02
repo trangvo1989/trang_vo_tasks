@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the limitless possibilities of your future as a highly skilled freelancer, where expertise meets innovation and excellence. Your journey unfolds as a wonderful odyssey in the dynamic world of freelancing.">
-    <title>Team 6 | Portfolio G6</title>
+    <title><?php $title ?></title>
 
     <link rel="icon" type="image/x-icon" href="image/favicon_io/favicon.ico">
 
@@ -33,16 +33,16 @@
                         <ul role="menubar" class="nav-list">
                             <hr class="divider">
                               <li role="menuitem" class="has-children">
-                                  <a href="/~trang23001/phpTasks/ex1.php">Excercise 1</a>
+                                  <a href="ex1.php">Excercise 1</a>
                               </li>
                               <li role="menuitem" class="has-children">
-                                  <a href="/~trang23001/phpTasks/ex2.php">Excercise 2</a>
+                                  <a href="ex2.php">Excercise 2</a>
                               </li>
                               <li role="menuitem" class="has-children">
-                                  <a href="/Portfolio_Project/team.html">Team</a>
+                                  <a href="ex3.php">Excercise 3</a>
                               </li>
                               <li role="menuitem" class="has-children">
-                                  <a href="/Portfolio_Project/contact.html">Contact</a>
+                                  <a href="ex4.php">Excercise 4</a>
                               </li>
                             <hr class="divider">
                         </ul>
