@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the limitless possibilities of your future as a highly skilled freelancer, where expertise meets innovation and excellence. Your journey unfolds as a wonderful odyssey in the dynamic world of freelancing.">
-    <title><?php $title ?></title>
+    <title><?php echo $title ?></title>
 
     <link rel="icon" type="image/x-icon" href="image/favicon_io/favicon.ico">
 
